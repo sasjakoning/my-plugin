@@ -1,6 +1,6 @@
 {
-  "name": "my-plugin",
-  "description": "",
+  "name": "sketch-nederlandse-namen",
+  "description": "Sketch plugin for dutch names",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=49.0"
@@ -13,6 +13,10 @@
       "assets/**/*"
     ],
     "sketch-assets-file": "sketch-assets/icons.sketch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sasjakoning/sketch-nederlandse-namen.git"
   },
   "scripts": {
     "build": "skpm-build",
