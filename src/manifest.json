@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Vrouwen namen",
+      "identifier": "vrouwen-namen",
+      "script": "./vrouwen-namen.js"
+    },
+    {
+      "name": "Mannen namen",
+      "identifier": "mannen-namen",
+      "script": "./mannen-namen.js"
+    },
+    {
+      "name": "Willekeurige namen",
+      "identifier": "willekeurige-namen",
+      "script": "./willekeurige-namen.js"
+    }
+  ],
+  "menu": {
+    "title": "Nederlandse namen",
+    "items": [
+      "vrouwen-namen", "mannen-namen", "willekeurige-namen"
+    ]
+  }
+}
